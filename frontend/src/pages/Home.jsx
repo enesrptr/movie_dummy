@@ -1,5 +1,6 @@
 import MovieCard from "../components/MovieCard";
 import { useState } from "react";
+import "../css/Home.css"
 
 function Home() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -40,8 +41,7 @@ function Home() {
             className="search-input"
           />
           <button type="submit" className="search-button">
-            {" "}
-            Search{" "}
+            Search
           </button>
         </form>
 
